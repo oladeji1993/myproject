@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding>
+  <div class="parent">
+    <div>
+      <p class="sign">Sign in</p>
+    </div>
+    <form  class="form">
+      <div class="w100">
+        <ion-item lines="none" class="px-20 py-10 ion-no-padding">
+          <ion-input class="un" placeholder="Username"></ion-input>  
+        </ion-item>
+        <ion-item lines="none" class="px-20 py-10 ion-no-padding">
+          <ion-input class="un" placeholder="Password" type="password"></ion-input>
+        </ion-item>
+      </div>
+    </form>
+    
+    <div class="btn-container w100">
+      <ion-button class="login w100" fill="clear" routerLink="/dashbord" routerDirection="root">Login</ion-button>
+    </div>    
+    <div class="text-center pt-1 sign-up" fill="clear" routerLink="/details">Don't have an account? <span class="sign-up_">Create an account</span></div>
+  </div>
+
+</ion-content>

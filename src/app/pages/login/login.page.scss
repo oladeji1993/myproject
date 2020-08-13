@@ -1,0 +1,64 @@
+.parent {
+    padding: 20px;
+}
+
+.sign {
+    padding-top: 20%;
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.form {
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.un {
+width: 80%;
+color: rgb(8, 8, 8);
+font-weight: 700;
+font-size: 15px;
+letter-spacing: 1px;
+background: rgba(240, 240, 243, 0.04);
+padding: 0px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 1px solid blue;
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+}
+
+// .up{
+//     padding-left:140px;
+// }
+// .login{
+//     padding-left:25px;
+// }
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.login {
+    background: #2645d1!important;
+    color: #ffffff;
+    // width: 40%;
+    border-radius: 5px;
+}
+
+.sign-up {
+    color: #2645d1;
+    font-size: 0.8rem;
+}
+
+.sign-up_ {
+    color: yellowgreen;
+}
