@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from 'src/app/api.service';
+
 
 @Component({
   selector: 'app-home',
@@ -6,10 +8,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.page.scss'],
 })
 export class HomePage implements OnInit {
-
-  constructor() { }
+  airticles;
+  constructor(private apiService: ApiService) { }
 
   ngOnInit() {
+    
   }
+  
+  ionViewDidEnter(){
 
+    this.apiService.getNews().subscribe((data)=>{
+      console.log(data);
+      this.airticles = data['articles'];
+  });
 }

@@ -12,6 +12,17 @@
 }
 
 ion-card{
-    --background: #01235f;
+    --background: #020b27;
     --color: #fff;
+  }
+
+  .new{
+      border: 1px blue;
+      padding-right:20px
+  }
+
+  .btn{
+      background:#fff;
+      border-radius:5px;
+      
   }
